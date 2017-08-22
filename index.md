@@ -1,34 +1,92 @@
-## Welcome to mimiku
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: mimiku.github.io
+date_format: "ordinal"
+title: 测试
+subtitle: "傻瓜式建站"
+description: "暂无"
+keywords: 暂无
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
 
-You can use the [editor on GitHub](https://github.com/mimiku/mimiku.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: mimiku
+organization: 
+organization_url: 
+github_username: mimilu
+location: ShanXi, China
+email: 2750214998@qq.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
-### Markdown
+  -
+    href: /categories/
+    label: 分类
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  -
+    href: /wiki/
+    label: 维基
 
-```markdown
-Syntax highlighted code block
+  -
+    href: /links/
+    label: 链接
 
-# Header 1
-## Header 2
-### Header 3
+  -
+    href: /about/
+    label: 关于
 
-- Bulleted
-- List
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
-1. Numbered
-2. List
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
 
-**Bold** and _Italic_ and `Code` text
+repository: mzlogin/mzlogin.github.io
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mimiku/mimiku.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
