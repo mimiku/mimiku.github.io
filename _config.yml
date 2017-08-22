@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://2017xianyu.org
+url: http://mimiku.org
 date_format: "ordinal"
-title: 测试6.0
-subtitle: "测试改变人生"
-description: "我已经是条咸鱼了"
-keywords:咸鱼
+title: 咸鱼
+subtitle: "咸鱼改变人生"
+description: "咸鱼的个人博客"
+keywords: 咸鱼
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,12 +16,13 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Xian Yu
+author: mimiku
 organization: zkh360.com
 organization_url: http://www.zkh360.com
-github_username: 2017xianyu
-location:Xian Yu, China
-email: 2750214998@qq.com
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
+
 # ---------------- #
 #    Navigation    #
 # ---------------- #
@@ -88,10 +89,10 @@ comments_provider: gitment
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username:2017xianyu
+    username: mimiku
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner:2017xianyu
+    owner: mimiku
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
@@ -104,5 +105,3 @@ lazy_load_disqus : true
 # ---------------- #
 google:
     analytics_id: UA-80669434-1
-
-theme: jekyll-theme-cayman
