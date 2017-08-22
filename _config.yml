@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mimiku.org
+url: http://2017xianyu.org
 date_format: "ordinal"
 title: 测试6.0
 subtitle: "测试改变人生"
@@ -19,7 +19,7 @@ side_bar_repo_limit: 5
 author: Xian Yu
 organization: zkh360.com
 organization_url: http://www.zkh360.com
-github_username: mimiku
+github_username: 2017xianyu
 location:Xian Yu, China
 email: 2750214998@qq.com
 # ---------------- #
@@ -88,10 +88,10 @@ comments_provider: gitment
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username:mimiku
+    username:2017xianyu
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner:2017xianyu
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
