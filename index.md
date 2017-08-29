@@ -6,7 +6,7 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <h1>XianYuGong</h1>
+        <h1>咸鱼宫的咸鱼日常</h1>
        
       </div>
       <div id="particles-js"></div>
